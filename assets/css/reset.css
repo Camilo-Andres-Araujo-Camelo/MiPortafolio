@@ -1,0 +1,42 @@
+/* Custom properties */
+
+:root {
+    /* Colores */
+
+    --rosado: #FF4F6F;
+    --azul: #34B0BE;
+    --negro: #1F1D2C;
+    --gris-oscuro: #242635;
+    --gris-claro: #ADADAD;
+    --gris-palido: #e5e5e5;
+    --blanco: #FFFFFF;
+}
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--gris-palido);
+    color: var(--negro);
+}
+
+a {
+    text-decoration: none;
+    color: var(--negro);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* fin reset */
