@@ -55,7 +55,8 @@
 }
 
 .foto-perfil {
-    max-width: 350px;
+    max-width: auto;
+    min-width: auto;
     height: 50vh;
     margin: 0 auto;
 }
@@ -125,6 +126,7 @@
     margin: 0 auto;
 }
 
+/*/////////////////////// Problema con el slider */
 .container-puntajes {
     display: grid;
     grid-auto-flow: column;
@@ -137,6 +139,7 @@
     justify-content: center;
     margin: 0 auto;
 }
+/*/////////////////////// Problema con el slider */
 
 .puntaje {
     display: flex;
@@ -312,6 +315,7 @@
     margin-left: 1rem;
 }
 
+/*/////////////////////// Problema con el slider */
 .contenedor-portafolio {
     display: grid;
     grid-auto-flow: column;
@@ -325,6 +329,7 @@
     margin: 0 auto;
     overflow: auto;
 }
+/*/////////////////////// Problema con el slider */
 
 .portafolio-proyect {
     background-color: whitesmoke;
@@ -408,7 +413,7 @@
 }
 
 .made {
-    margin: 0 auto;
+    margin: 5rem auto 1rem;
     width: 217px;
     font-size: 14px;
     font-weight: 400;
@@ -451,6 +456,19 @@
     .estudios {
         max-width: 500px;
     }
+
+    .caja-servicios {
+        max-width: 500px;
+    }
+
+    .caja-portafolio {
+        max-width: 500px;
+    }
+
+    .caja-contacto {
+        max-width: 500px;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -497,6 +515,7 @@
     .UVM {
         margin-top: 2rem;
     }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -607,6 +626,14 @@
 
     .contenedor-servicios {
         flex-direction: row;
+    }
+
+    .caja-servicios {
+        max-width: 800px;
+    }
+
+    .servicios-title {
+        margin-left: 8rem;
     }
     
 }
