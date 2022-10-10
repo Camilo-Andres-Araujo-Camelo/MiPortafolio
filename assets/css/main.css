@@ -136,7 +136,7 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
-    justify-content: center;
+    padding: 1rem;
     margin: 0 auto;
 }
 /*/////////////////////// Problema con el slider */
@@ -325,7 +325,7 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
-    justify-content: center;
+    padding: 1rem;
     margin: 0 auto;
     overflow: auto;
 }
